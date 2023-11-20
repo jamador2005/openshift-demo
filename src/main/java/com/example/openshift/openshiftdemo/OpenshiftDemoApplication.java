@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class OpenshiftDemoApplication {
 
-	@GetMapping("/hello")
+	@GetMapping("/")
 	public String getMessage(){
-		return ("here iam replying and working V5");
+		return ("here iam replying and working V6");
 	}
 
 	public static void main(String[] args) {
