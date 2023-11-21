@@ -19,7 +19,7 @@ RUN mkdir /app
 #USER root
 #COPY OpenshiftDemoApplication.jar /app
 
-#USER root
-#ENTRYPOINT [ "java","-jar","/app/OpenshiftDemoApplication.jar" ]
+USER root
+ENTRYPOINT [ "java","-jar","OpenshiftDemoApplication.jar" ]
 
 
