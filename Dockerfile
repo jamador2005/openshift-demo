@@ -7,7 +7,7 @@ USER root
 RUN microdnf install nc
 RUN microdnf install curl
 
-ADD /target/spring-boot-starter-parent.jar spring-boot-starter-parent.jar 
+ADD spring-boot-starter-parent.jar spring-boot-starter-parent.jar 
 
 USER root
 EXPOSE 8080
