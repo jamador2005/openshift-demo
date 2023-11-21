@@ -12,7 +12,7 @@ public class OpenshiftDemoApplication {
 
 	@GetMapping("/")
 	public String getMessage(){
-		return ("here iam replying and working V6");
+		return ("here i'am replying and working V6");
 	}
 
 	public static void main(String[] args) {
