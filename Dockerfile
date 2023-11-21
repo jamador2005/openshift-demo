@@ -4,8 +4,8 @@ USER root
 #    && microdnf clean all \
 #    && rpm -q shadow-utils
 
-RUN microdnf install nc
-RUN microdnf install curl
+#RUN microdnf install nc
+#RUN microdnf install curl
 
 <<<<<<< HEAD
 ADD /target/openshift-demo-0.0.1-SNAPSHOT.jar openshift-demo-0.0.1-SNAPSHOT.jar 
