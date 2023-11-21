@@ -7,7 +7,11 @@ USER root
 RUN microdnf install nc
 RUN microdnf install curl
 
+<<<<<<< HEAD
 ADD /target/openshift-demo-0.0.1-SNAPSHOT.jar openshift-demo-0.0.1-SNAPSHOT.jar 
+=======
+ADD spring-boot-starter-parent.jar spring-boot-starter-parent.jar 
+>>>>>>> a14ea86ae594a00861cdd5da4696b3baab65b685
 
 USER root
 EXPOSE 8080
